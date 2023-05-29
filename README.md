@@ -92,11 +92,12 @@ including:
 
 1. Adding and updating files
 
-2. Adding folders and reorganizing your repository
+2. Reorganizing your project (e.g., moving or renaming files, placing files in
+   folders)
 
 3. Editing files in text format (e.g., Markdown files, code files, CSV files, etc.)
 
-4. Browsing your repository history, including the revision history of specific
+4. Browsing your project history, including the revision history of specific
    files, and examining changes made to files in text format
 
 
@@ -104,11 +105,13 @@ including:
 
 Here are a few tips and tricks for using GitHub to share study materials:
 
-1. Be sure to include a ``README.md`` file at the root of your repository, as
-   demonstrated here. GitHub will render this file automatically when a user
-   navigates to the repository, thereby serving as a quick-and-dirty website
-   for your study. Note also that README.md files may be placed within any
-   folder in your repository to provide additional documentation.
+1. Be sure to include a
+   [``README.md`` file](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)
+   at the root of your repository, as demonstrated in this template. GitHub
+   will render this file automatically when a user navigates to the
+   repository, thereby serving as a quick-and-dirty website for your study.
+   Note also that README.md files may be placed within any folder in your
+   repository to provide additional documentation.
 
 2. While you do not have to follow the repository structure given in the
    template, you are encouraged to adopt a simple and intuitive structure that
@@ -120,11 +123,29 @@ Here are a few tips and tricks for using GitHub to share study materials:
    R, Python) we suggest placing these in a folder by that name.
 
 3. Although you may upload and store files of any type in GitHub, files
-   containing written material are best provided in [Markdown](https://www.markdownguide.org)
+   containing written content are best provided in [Markdown](https://www.markdownguide.org)
    or [reStructuredText](https://docutils.sourceforge.io/rst.html), since
    those are rendered automatically by GitHub and are editable using the
    [GitHub editor](https://docs.github.com/en/get-started/writing-on-github).
 
-4. Related to (3), use hyperlinks liberally. Much better to link out to a
-   resource that is already available on the web than to include a copy in
-   your repository.
+4. Related to (3), GitHub is also able to render
+   [additional file types](https://docs.github.com/en/repositories/working-with-files/using-files/working-with-non-code-files)
+   including PDF files, images (PNG, JPG, GIF, PSD, and SVG), CSV and TSV data, 
+   GeoJSON and TopoJSON map files, and Jupyter notebooks. Use of such files,
+   when possible, will make it easier for users to consume your content.
+
+5. When organizing and documenting your project, use hyperlinks liberally.
+   It is often better to link out to a resource that is already available on
+   the web than to include a copy of that resource in your repository.
+
+6. [GitHub issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues)
+   can be used to respond to questions about your project in a way that
+   benefits all subsequent users, as well as to facilitate back-and-forth
+   and/or collaboration. At the same time, material not included in your
+   project's files (e.g., issues,
+   [wikis](https://docs.github.com/en/communities/documenting-your-project-with-wikis/about-wikis),
+   etc.) is not included when cloning or downloading your project, and thus
+   cannot be packaged together with your data when you submit your data to a
+   data repository. Thus, while GitHub issues and wikis can be useful, keep
+   this in mind before spending a lot of time creating content using those
+   features.
