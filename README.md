@@ -38,8 +38,8 @@ To get started by creating your own repository from this template, simply follow
 ## Sharing Data
 
 While you can in principle use GitHub to share the actual data from your
-study, data repositories are often a better choice. Data repositories are
-optimized for archiving and distributing research data, and have special
+study, data repositories are almost always a better choice. Data repositories
+are optimized for archiving and distributing research data, and have special
 capabilities for ensuring that data files are organized and formatted
 properly, that they are accompanied by adequate metadata, and in some cases,
 for assisting with deidentification and curation. Data repositories are also
