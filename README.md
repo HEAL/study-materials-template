@@ -76,6 +76,33 @@ GitHub makes this easy to to when you are creating a new repository (just
 select a license from the drop-down menu).
 
 
+## Accessibility
+
+When creating electronic materials, you should try to make them accessible to
+as many people as possible including those with visual, cognitive, mobility
+and hearing limitations. While this is a requirement for all Federal
+electronic content (as stipulated in Section 508, part of an amendment to the
+Rehabilitation Act of 1973), attention to accessible design often leads to
+clearer overall presentation and more useable content, and therefore benefits
+all users of that content. GitHub targets compliance with the
+[Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/TR/WCAG21/),
+and provides [information on their 508 accessibility](https://government.github.com/accessibility/).
+
+When creating study-related materials to share in your repository, pay
+particular attention to the following:
+
+- Document format (e.g., use accessible PDFs which have been tagged
+  appropriately to facilitate navigation)
+- Tables (use simple structure with row and column headers to ensure that they
+  can be navigated via a keyboard or other assistive device)
+- Use of color (choose high contrast colors and don't rely on color alone)
+- Images (provide text alternatives)
+- Multimedia (provide closed captioning or transcript)
+
+More information on creating accessible materials is available at
+[Section508.gov](https://www.section508.gov/create/).
+
+
 ## You Don't Need To Use Git!
 
 For those who don't know, Git is a file versioning tool used heavily by
